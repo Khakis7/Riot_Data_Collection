@@ -9,6 +9,29 @@ API_VERSION = {
     'summoner': '4'
 }
 
-REGION = {
-    'north-america': 'na1'
-}
+NAMES = [
+    {
+        'name': 'TheShackledOne',
+        'region': 'euw1'
+    },
+    {
+        'name': 'MS Paint abuser',
+        'region': 'euw1'
+    },
+    {
+        'name': 'G2 Jerkz',
+        'region': 'euw1'
+    },
+    {
+        'name': 'MikyXD',
+        'region': 'euw1'
+    },
+    {
+        'name': '뿔레애오',
+        'region': 'kr'
+    },
+    {
+        'name': 'Baki',
+        'region': 'kr'
+    }
+]
