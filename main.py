@@ -1,9 +1,11 @@
 from RiotApi import RiotApi
+from Spreadsheet import Spreadsheet
 import RiotConst as Consts
 import pprint
 
 def main():
     api = RiotApi('RGAPI-1cfcbc31-b14b-48aa-a083-e387b72474f2')
+    spreadsheet = Spreadsheet()
     summoners = []
 
     for value in Consts.NAMES:
@@ -19,10 +21,8 @@ def main():
 
     for value in summoners: 
         print(value)
-        
 
-    pp = pprint.PrettyPrinter()
-    pp.pprint(summoners)
+    spreadsheet.insertPlayer()
 
 
     #data = api.get_match_history(summoner['accountId'])
